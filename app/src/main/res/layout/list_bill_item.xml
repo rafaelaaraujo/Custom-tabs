@@ -3,12 +3,12 @@
 
     <data>
 
-        <import type="com.example.rafaelaaraujo.customTabsAndroid.util.Utils" />
+        <import type="com.example.rafaelaaraujo.customTabAndroid.util.Utils" />
         <import type="android.view.View" />
 
         <variable
             name="lineItem"
-            type="com.example.rafaelaaraujo.customTabsAndroid.model.LineItem" />
+            type="com.example.rafaelaaraujo.customTabAndroid.model.LineItem" />
 
         <variable
             name="lastPosition"

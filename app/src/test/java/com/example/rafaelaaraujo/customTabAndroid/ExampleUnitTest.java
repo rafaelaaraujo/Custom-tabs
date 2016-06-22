@@ -1,4 +1,4 @@
-package com.example.rafaelaaraujo.customTabsAndroid;
+package com.example.rafaelaaraujo.customTabAndroid;
 
 import org.junit.Test;
 

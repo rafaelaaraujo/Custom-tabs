@@ -1,4 +1,4 @@
-package com.example.rafaelaaraujo.customTabsAndroid.fragment;
+package com.example.rafaelaaraujo.customTabAndroid.fragment;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -10,11 +10,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.rafaelaaraujo.customTabsAndroid.R;
-import com.example.rafaelaaraujo.customTabsAndroid.adapter.BillItemsAdapter;
-import com.example.rafaelaaraujo.customTabsAndroid.databinding.PageFragmentBinding;
-import com.example.rafaelaaraujo.customTabsAndroid.enuns.StateBillEnum;
-import com.example.rafaelaaraujo.customTabsAndroid.model.Bill;
+import com.example.rafaelaaraujo.customTabAndroid.R;
+import com.example.rafaelaaraujo.customTabAndroid.adapter.BillItemsAdapter;
+import com.example.rafaelaaraujo.customTabAndroid.databinding.PageFragmentBinding;
+import com.example.rafaelaaraujo.customTabAndroid.enuns.StateBillEnum;
+import com.example.rafaelaaraujo.customTabAndroid.model.Bill;
 
 /**
  * Created by rafaela.araujo on 13/06/2016.

@@ -1,4 +1,4 @@
-package com.example.rafaelaaraujo.customTabsAndroid.model;
+package com.example.rafaelaaraujo.customTabAndroid.model;
 
 import java.io.Serializable;
 

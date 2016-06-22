@@ -1,4 +1,4 @@
-package com.example.rafaelaaraujo.customTabsAndroid.activity;
+package com.example.rafaelaaraujo.customTabAndroid.activity;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -10,10 +10,10 @@ import android.widget.TextView;
 
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
-import com.example.rafaelaaraujo.customTabsAndroid.R;
-import com.example.rafaelaaraujo.customTabsAndroid.adapter.FragmentePageAdapter;
-import com.example.rafaelaaraujo.customTabsAndroid.communication.response.BillResponse;
-import com.example.rafaelaaraujo.customTabsAndroid.communication.service.BillService;
+import com.example.rafaelaaraujo.customTabAndroid.R;
+import com.example.rafaelaaraujo.customTabAndroid.adapter.FragmentePageAdapter;
+import com.example.rafaelaaraujo.customTabAndroid.communication.response.BillResponse;
+import com.example.rafaelaaraujo.customTabAndroid.communication.service.BillService;
 
 import java.util.ArrayList;
 

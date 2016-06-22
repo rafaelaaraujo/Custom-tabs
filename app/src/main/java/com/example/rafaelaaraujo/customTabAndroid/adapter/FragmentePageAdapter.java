@@ -1,4 +1,4 @@
-package com.example.rafaelaaraujo.customTabsAndroid.adapter;
+package com.example.rafaelaaraujo.customTabAndroid.adapter;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
@@ -9,11 +9,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.rafaelaaraujo.customTabsAndroid.R;
-import com.example.rafaelaaraujo.customTabsAndroid.communication.response.BillResponse;
-import com.example.rafaelaaraujo.customTabsAndroid.enuns.StateBillEnum;
-import com.example.rafaelaaraujo.customTabsAndroid.fragment.PageFragment;
-import com.example.rafaelaaraujo.customTabsAndroid.model.Bill;
+import com.example.rafaelaaraujo.customTabAndroid.R;
+import com.example.rafaelaaraujo.customTabAndroid.communication.response.BillResponse;
+import com.example.rafaelaaraujo.customTabAndroid.enuns.StateBillEnum;
+import com.example.rafaelaaraujo.customTabAndroid.fragment.PageFragment;
+import com.example.rafaelaaraujo.customTabAndroid.model.Bill;
 
 import org.joda.time.DateTime;
 

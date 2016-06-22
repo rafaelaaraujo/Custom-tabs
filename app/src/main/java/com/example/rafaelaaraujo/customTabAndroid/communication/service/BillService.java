@@ -1,4 +1,4 @@
-package com.example.rafaelaaraujo.customTabsAndroid.communication.service;
+package com.example.rafaelaaraujo.customTabAndroid.communication.service;
 
 import android.content.Context;
 
@@ -7,7 +7,7 @@ import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.rafaelaaraujo.customTabsAndroid.communication.response.BillResponse;
+import com.example.rafaelaaraujo.customTabAndroid.communication.response.BillResponse;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;
