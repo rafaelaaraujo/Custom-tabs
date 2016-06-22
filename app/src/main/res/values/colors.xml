@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@android:color/white</color>
+    <color name="colorPrimaryDark">#3d2b40</color>
+    <color name="colorAccent">@color/bill_closed</color>
+
+    <color name="bill_overdue">#7ED321</color>
+    <color name="bill_closed">#E5615C</color>
+    <color name="bill_open">#40AAB9</color>
+    <color name="bill_future">#F5A623</color>
+
+    <color name="item_bill_ball">#cdcdcd</color>
+    <color name="item_bill_text">#545454</color>
+    <color name="item_bill_date">#cccccc</color>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <import type="com.example.rafaelaaraujo.customAbasAndroid.util.Utils" />
+        <import type="android.view.View" />
+
+        <variable
+            name="bill"
+            type="com.example.rafaelaaraujo.customAbasAndroid.model.Bill" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linear_topo"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@color/bill_closed"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@{Utils.formatToMonetary(bill.getSummary().getTotal_cumulative(),true)}"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/due_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@{@string/due_date(Utils.fomatteDateddMMM(bill.getSummary().getDue_date()))}"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/txt_closed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@{@string/date_closed(Utils.fomatteDateddMMM(bill.getSummary().getClose_date()))}"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:visibility="@{bill.getState().equals(`open`)? View.VISIBLE:View.GONE}" />
+
+            <TextView
+                android:id="@+id/txt_future"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="@{@string/date_future}"
+                android:textAllCaps="true"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:visibility="@{bill.getState().equals(`future`)? View.VISIBLE:View.GONE}" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_total_acumulative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="@{bill.getSummary().getTotal_cumulative() &gt; 0 &amp; bill.getState().equals(`closed`)? View.VISIBLE:View.GONE}"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_accumulative"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Gastos do mês"
+                android:textAllCaps="true"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_total_accumulative"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@{Utils.formatToMonetary(bill.getSummary().getTotal_cumulative(),true)}"
+                android:textAllCaps="true"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_generate_bilet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@{bill.getState().equals(`open`)? @drawable/selector_button_generate_billet_blue : @drawable/selector_button_generate_billet_red}"
+            android:text="@string/gerar_boleto"
+            android:textColor="@{bill.getState().equals(`open`)? @color/bill_open : @color/bill_closed}"
+            android:visibility="@{!bill.getState().equals(`future`) &amp;&amp; !bill.getState().equals(`overdue`) ? View.VISIBLE :View.GONE}" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:visibility="visible"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_from_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="@{@string/from_to_date(Utils.fomatteDateddMMM(bill.getSummary().getOpen_date()),Utils.fomatteDateddMMM(bill.getSummary().getClose_date()))}"
+                android:textAllCaps="true"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/txt_values"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/valores_em"
+                android:textAllCaps="true"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/line_itens_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:paddingBottom="10dp" />
+    </LinearLayout>
+</layout>

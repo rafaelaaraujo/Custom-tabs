@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="com.example.rafaelaaraujo.customAbasAndroid.util.Utils" />
+        <import type="android.view.View" />
+
+        <variable
+            name="lineItem"
+            type="com.example.rafaelaaraujo.customAbasAndroid.model.LineItem" />
+
+        <variable
+            name="lastPosition"
+            type="boolean" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/viewBall"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:background="@drawable/view_ball" />
+
+            <View
+                android:id="@+id/viewLine"
+                android:layout_width="2dp"
+                android:layout_height="15dp"
+                android:background="@color/item_bill_ball"
+                android:visibility="@{lastPosition ?View.GONE:View.VISIBLE}" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{Utils.fomatteDateddMMM(lineItem.getPost_date())}"
+                android:textAllCaps="true"
+                android:textColor="@color/item_bill_ball"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@{Utils.formatTitleListLineItem(lineItem)}"
+                android:textColor="@{lineItem.getAmount() &lt; 0? @color/bill_overdue : @color/item_bill_text}"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/values"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:gravity="end"
+                android:text="@{Utils.formatToMonetary(lineItem.getAmount(),false)}"
+                android:textColor="@{lineItem.getAmount() &lt; 0? @color/bill_overdue : @color/item_bill_text}"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>

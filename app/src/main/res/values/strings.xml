@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AbasTeste</string>
+    <string name="due_date">vencimento em %s</string>
+    <string name="date_closed">fechamento em %s</string>
+    <string name="date_future">fatura parcial</string>
+    <string name="from_to_date">De %1$s até %2$s</string>
+    <string name="buscando_dados">buscando dados</string>
+    <string name="valores_em">Valores em R$</string>
+    <string name="gerar_boleto">Gerar boleto</string>
+</resources>
