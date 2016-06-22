@@ -1,4 +1,4 @@
-package com.example.rafaelaaraujo.customAbasAndroid.adapter;
+package com.example.rafaelaaraujo.customTabsAndroid.adapter;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;
@@ -8,9 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.rafaelaaraujo.customAbasAndroid.BR;
-import com.example.rafaelaaraujo.customAbasAndroid.R;
-import com.example.rafaelaaraujo.customAbasAndroid.model.LineItem;
+import com.example.rafaelaaraujo.customTabsAndroid.BR;
+import com.example.rafaelaaraujo.customTabsAndroid.R;
+import com.example.rafaelaaraujo.customTabsAndroid.model.LineItem;
 
 import java.util.List;
 

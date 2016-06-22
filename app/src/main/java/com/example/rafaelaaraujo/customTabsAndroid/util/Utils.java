@@ -1,6 +1,6 @@
-package com.example.rafaelaaraujo.customAbasAndroid.util;
+package com.example.rafaelaaraujo.customTabsAndroid.util;
 
-import com.example.rafaelaaraujo.customAbasAndroid.model.LineItem;
+import com.example.rafaelaaraujo.customTabsAndroid.model.LineItem;
 
 import org.joda.time.DateTime;
 

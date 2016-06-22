@@ -1,4 +1,4 @@
-package com.example.rafaelaaraujo.customAbasAndroid.enuns;
+package com.example.rafaelaaraujo.customTabsAndroid.enuns;
 
 /**
  * Created by rafaela.araujo on 13/06/2016.

@@ -2,12 +2,12 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-        <import type="com.example.rafaelaaraujo.customAbasAndroid.util.Utils" />
+        <import type="com.example.rafaelaaraujo.customTabsAndroid.util.Utils" />
         <import type="android.view.View" />
 
         <variable
             name="bill"
-            type="com.example.rafaelaaraujo.customAbasAndroid.model.Bill" />
+            type="com.example.rafaelaaraujo.customTabsAndroid.model.Bill" />
     </data>
 
     <LinearLayout

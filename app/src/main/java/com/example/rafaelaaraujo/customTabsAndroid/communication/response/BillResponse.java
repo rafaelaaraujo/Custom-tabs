@@ -1,6 +1,6 @@
-package com.example.rafaelaaraujo.customAbasAndroid.communication.response;
+package com.example.rafaelaaraujo.customTabsAndroid.communication.response;
 
-import com.example.rafaelaaraujo.customAbasAndroid.model.Bill;
+import com.example.rafaelaaraujo.customTabsAndroid.model.Bill;
 
 /**
  * Created by rafaela.araujo on 14/06/2016.

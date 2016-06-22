@@ -1,4 +1,4 @@
-package com.example.rafaelaaraujo.customAbasAndroid;
+package com.example.rafaelaaraujo.customTabsAndroid;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
