@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AbasTeste</string>
+    <string name="app_name">CustomTabs</string>
     <string name="due_date">vencimento em %s</string>
     <string name="date_closed">fechamento em %s</string>
     <string name="date_future">fatura parcial</string>
