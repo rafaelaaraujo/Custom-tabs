@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CustomTabAndroid.iml" filepath="$PROJECT_DIR$/CustomTabAndroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volley-android/Volley-android.iml" filepath="$PROJECT_DIR$/Volley-android/Volley-android.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
