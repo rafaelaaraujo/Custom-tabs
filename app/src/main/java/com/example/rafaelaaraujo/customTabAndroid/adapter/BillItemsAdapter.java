@@ -42,8 +42,7 @@ public class BillItemsAdapter extends RecyclerView.Adapter<BillItemsViewHolder> 
     public int getItemCount() {
         return listItems.size();
     }
-
-
+    
     @Override
     public void onBindViewHolder(BillItemsViewHolder holder, int position, List<Object> payloads) {
         holder.getBinding().setVariable(BR.lineItem, listItems.get(position));
