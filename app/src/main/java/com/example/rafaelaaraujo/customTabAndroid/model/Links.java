@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by rafaela.araujo on 14/06/2016.
  */
-public class Links implements Serializable {
+class Links implements Serializable {
     private Barcode barcode;
     private BoletoEmail boleto_email;
     private Self self;

@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="AppTheme.TextOpen" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@drawable/button_generate_billet_blue_text_color</item>
+    </style>
+
+    <style name="AppTheme.TextClose" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@drawable/button_generate_billet_red_text_color</item>
+    </style>
+
 </resources>

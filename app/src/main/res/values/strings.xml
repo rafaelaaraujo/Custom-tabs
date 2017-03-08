@@ -6,5 +6,5 @@
     <string name="from_to_date">De %1$s até %2$s</string>
     <string name="buscando_dados">buscando dados</string>
     <string name="valores_em">Valores em R$</string>
-    <string name="gerar_boleto">Gerar boleto</string>
+    <string name="generate_billet">Gerar boleto</string>
 </resources>

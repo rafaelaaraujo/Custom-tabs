@@ -28,7 +28,8 @@
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="10dp"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <View
                 android:id="@+id/viewBall"
@@ -39,7 +40,7 @@
             <View
                 android:id="@+id/viewLine"
                 android:layout_width="2dp"
-                android:layout_height="15dp"
+                android:layout_height="20dp"
                 android:background="@color/item_bill_ball"
                 android:visibility="@{lastPosition ?View.GONE:View.VISIBLE}" />
         </LinearLayout>
@@ -58,7 +59,8 @@
                 android:text="@{Utils.fomatteDateddMMM(lineItem.getPost_date())}"
                 android:textAllCaps="true"
                 android:textColor="@color/item_bill_ball"
-                android:textSize="11sp" />
+                android:textSize="11sp"
+                android:layout_marginTop="-2dp"/>
 
             <TextView
                 android:id="@+id/text"

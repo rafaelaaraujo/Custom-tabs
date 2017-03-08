@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
         <import type="com.example.rafaelaaraujo.customTabAndroid.util.Utils" />
@@ -19,7 +20,7 @@
             android:id="@+id/linear_topo"
             android:layout_width="match_parent"
             android:layout_height="120dp"
-            android:background="@color/bill_closed"
+            app:changeBackground="@{bill.getState()}"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -83,7 +84,7 @@
                 android:text="Gastos do mês"
                 android:textAllCaps="true"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="15sp" />
+                android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/txt_total_accumulative"
@@ -95,7 +96,7 @@
                 android:text="@{Utils.formatToMonetary(bill.getSummary().getTotal_cumulative(),true)}"
                 android:textAllCaps="true"
                 android:textColor="@android:color/darker_gray"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -105,15 +106,14 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@{bill.getState().equals(`open`)? @drawable/selector_button_generate_billet_blue : @drawable/selector_button_generate_billet_red}"
-            android:text="@string/gerar_boleto"
-            android:textColor="@{bill.getState().equals(`open`)? @color/bill_open : @color/bill_closed}"
+            android:text="@string/generate_billet"
+            app:textBackground="@{bill.getState()}"
             android:visibility="@{!bill.getState().equals(`future`) &amp;&amp; !bill.getState().equals(`overdue`) ? View.VISIBLE :View.GONE}" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
-            android:layout_marginTop="10dp"
             android:visibility="visible"
             android:weightSum="2">
 

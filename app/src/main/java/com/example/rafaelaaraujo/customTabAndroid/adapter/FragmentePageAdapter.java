@@ -1,6 +1,9 @@
 package com.example.rafaelaaraujo.customTabAndroid.adapter;
 
 import android.content.Context;
+import android.databinding.BindingAdapter;
+import android.databinding.DataBindingUtil;
+import android.databinding.ViewDataBinding;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -9,8 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
 
+import com.android.databinding.library.baseAdapters.BR;
 import com.example.rafaelaaraujo.customTabAndroid.R;
-import com.example.rafaelaaraujo.customTabAndroid.communication.response.BillResponse;
 import com.example.rafaelaaraujo.customTabAndroid.enuns.StateBillEnum;
 import com.example.rafaelaaraujo.customTabAndroid.fragment.PageFragment;
 import com.example.rafaelaaraujo.customTabAndroid.model.Bill;
@@ -23,25 +26,23 @@ import java.util.ArrayList;
  * Created by rafaela.araujo on 13/06/2016.
  */
 public class FragmentePageAdapter extends FragmentPagerAdapter {
-    final int PAGE_COUNT = 4;
     private Context context;
-    private ArrayList<BillResponse> billList;
-    private View v;
+    private static ArrayList<Bill> billList;
 
-    public FragmentePageAdapter(FragmentManager fm, Context context, ArrayList<BillResponse> billList) {
+    public FragmentePageAdapter(FragmentManager fm, Context context, ArrayList<Bill> billList) {
         super(fm);
         this.context = context;
-        this.billList = billList;
+        FragmentePageAdapter.billList = billList;
     }
 
     @Override
     public int getCount() {
-        return PAGE_COUNT;
+        return 4;
     }
 
     @Override
     public Fragment getItem(int position) {
-        return PageFragment.newInstance(position + 1, billList.get(position).getBill());
+        return PageFragment.newInstance(position + 1, billList.get(position));
     }
 
     @Override
@@ -50,34 +51,22 @@ public class FragmentePageAdapter extends FragmentPagerAdapter {
     }
 
     public View getTabView(int position) {
-        StateBillEnum stateBillEnum = StateBillEnum.getFromOpt(billList.get(position).getBill().getState());
-        v = LayoutInflater.from(context).inflate(R.layout.custom_tab, null);
-        if (stateBillEnum != null) {
-            switch (stateBillEnum) {
-                case OPEN:
-                    changeColorTextAndTriangle(position, R.drawable.triangle_open, R.color.bill_open);
-                    break;
-
-                case CLOSED:
-                    changeColorTextAndTriangle(position, R.drawable.triangle_closed, R.color.bill_closed);
-                    break;
-
-                case OVERDUE:
-                    changeColorTextAndTriangle(position, R.drawable.triangle_overdue, R.color.bill_overdue);
-                    break;
-
-                case FUTURE:
-                    changeColorTextAndTriangle(position, R.drawable.triangle_future,  R.color.bill_future);
-                    break;
-            }
-        }
+        View v = LayoutInflater.from(context).inflate(R.layout.custom_tab, null);
+        ViewDataBinding binding = DataBindingUtil.bind(v);
+        binding.setVariable(BR.state, billList.get(position).getState());
+        binding.setVariable(BR.position, position);
         return v;
     }
 
-    public String getMonthString(int position) {
+    @BindingAdapter("monthString")
+    public static void changeMonthString(TextView tv, int position) {
+        tv.setText(getMonthString(position));
+    }
+
+    private static String getMonthString(int position) {
         String shortMonth = "";
         String rule = "MMM";
-        Bill b = billList.get(position).getBill();
+        Bill b = billList.get(position);
 
         if (b.getSummary() != null && b.getSummary().getDue_date() != null) {
             DateTime dateTime = new DateTime(b.getSummary().getDue_date());
@@ -89,10 +78,51 @@ public class FragmentePageAdapter extends FragmentPagerAdapter {
         return shortMonth;
     }
 
-    private void changeColorTextAndTriangle(int position,int drawableTriangle, int textColor){
-        TextView tv = (TextView) v.findViewById(R.id.title_tab);
-        v.findViewById(R.id.triangle).setBackground(ContextCompat.getDrawable(context, drawableTriangle));
-        tv.setTextColor(ContextCompat.getColor(context, textColor));
-        tv.setText(getMonthString(position));
+    @BindingAdapter("changeTextBackground")
+    public static void changeTextBackground(TextView tv, String state) {
+        StateBillEnum stateBillEnum = StateBillEnum.getFromOpt(state);
+        if (stateBillEnum != null) {
+            switch (stateBillEnum) {
+                case OPEN:
+                    tv.setTextColor(ContextCompat.getColor(tv.getContext(), R.color.bill_open));
+                    break;
+
+                case CLOSED:
+                    tv.setTextColor(ContextCompat.getColor(tv.getContext(), R.color.bill_closed));
+                    break;
+
+                case OVERDUE:
+                    tv.setTextColor(ContextCompat.getColor(tv.getContext(), R.color.bill_overdue));
+                    break;
+
+                case FUTURE:
+                    tv.setTextColor(ContextCompat.getColor(tv.getContext(), R.color.bill_future));
+                    break;
+            }
+        }
+    }
+
+    @BindingAdapter("changeBackground")
+    public static void changeBackground(View v, String state) {
+        StateBillEnum stateBillEnum = StateBillEnum.getFromOpt(state);
+        if (stateBillEnum != null) {
+            switch (stateBillEnum) {
+                case OPEN:
+                    v.setBackground(ContextCompat.getDrawable(v.getContext(), R.drawable.triangle_open));
+                    break;
+
+                case CLOSED:
+                    v.setBackground(ContextCompat.getDrawable(v.getContext(), R.drawable.triangle_closed));
+                    break;
+
+                case OVERDUE:
+                    v.setBackground(ContextCompat.getDrawable(v.getContext(), R.drawable.triangle_overdue));
+                    break;
+
+                case FUTURE:
+                    v.setBackground(ContextCompat.getDrawable(v.getContext(), R.drawable.triangle_future));
+                    break;
+            }
+        }
     }
 }
