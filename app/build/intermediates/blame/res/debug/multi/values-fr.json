@@ -1,0 +1,862 @@
+[
+    {
+        "outputFile": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr\\values-fr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endLine": 5,
+                    "endColumn": 14,
+                    "endOffset": 354
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 105,
+                        "endLine": 5,
+                        "endColumn": 14,
+                        "endOffset": 354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 359,
+                    "endLine": 9,
+                    "endColumn": 14,
+                    "endOffset": 616
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 359,
+                        "endLine": 9,
+                        "endColumn": 14,
+                        "endOffset": 616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 621,
+                    "endLine": 13,
+                    "endColumn": 14,
+                    "endOffset": 881
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 621,
+                        "endLine": 13,
+                        "endColumn": 14,
+                        "endOffset": 881
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 886,
+                    "endLine": 17,
+                    "endColumn": 14,
+                    "endOffset": 1149
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 886,
+                        "endLine": 17,
+                        "endColumn": 14,
+                        "endOffset": 1149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1154,
+                    "endLine": 21,
+                    "endColumn": 14,
+                    "endOffset": 1404
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1154,
+                        "endLine": 21,
+                        "endColumn": 14,
+                        "endOffset": 1404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1409,
+                    "endLine": 25,
+                    "endColumn": 14,
+                    "endOffset": 1671
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1409,
+                        "endLine": 25,
+                        "endColumn": 14,
+                        "endOffset": 1671
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1676,
+                    "endLine": 29,
+                    "endColumn": 14,
+                    "endOffset": 1941
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1676,
+                        "endLine": 29,
+                        "endColumn": 14,
+                        "endOffset": 1941
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1946,
+                    "endLine": 33,
+                    "endColumn": 14,
+                    "endOffset": 2214
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1946,
+                        "endLine": 33,
+                        "endColumn": 14,
+                        "endOffset": 2214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2219,
+                    "endLine": 37,
+                    "endColumn": 14,
+                    "endOffset": 2461
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 2219,
+                        "endLine": 37,
+                        "endColumn": 14,
+                        "endOffset": 2461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2466,
+                    "endLine": 41,
+                    "endColumn": 14,
+                    "endOffset": 2712
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 4,
+                        "startOffset": 2466,
+                        "endLine": 41,
+                        "endColumn": 14,
+                        "endOffset": 2712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2717,
+                    "endLine": 45,
+                    "endColumn": 14,
+                    "endOffset": 2965
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 4,
+                        "startOffset": 2717,
+                        "endLine": 45,
+                        "endColumn": 14,
+                        "endOffset": 2965
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2970,
+                    "endLine": 49,
+                    "endColumn": 14,
+                    "endOffset": 3212
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 2970,
+                        "endLine": 49,
+                        "endColumn": 14,
+                        "endOffset": 3212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3217,
+                    "endLine": 53,
+                    "endColumn": 14,
+                    "endOffset": 3466
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3217,
+                        "endLine": 53,
+                        "endColumn": 14,
+                        "endOffset": 3466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3471,
+                    "endLine": 57,
+                    "endColumn": 14,
+                    "endOffset": 3725
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3471,
+                        "endLine": 57,
+                        "endColumn": 14,
+                        "endOffset": 3725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 3730,
+                    "endLine": 61,
+                    "endColumn": 14,
+                    "endOffset": 3986
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 4,
+                        "startOffset": 3730,
+                        "endLine": 61,
+                        "endColumn": 14,
+                        "endOffset": 3986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 3991,
+                    "endLine": 65,
+                    "endColumn": 14,
+                    "endOffset": 4233
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3991,
+                        "endLine": 65,
+                        "endColumn": 14,
+                        "endOffset": 4233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4238,
+                    "endLine": 69,
+                    "endColumn": 14,
+                    "endOffset": 4493
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 4238,
+                        "endLine": 69,
+                        "endColumn": 14,
+                        "endOffset": 4493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 4498,
+                    "endLine": 73,
+                    "endColumn": 14,
+                    "endOffset": 4757
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 4,
+                        "startOffset": 4498,
+                        "endLine": 73,
+                        "endColumn": 14,
+                        "endOffset": 4757
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 74,
+                    "startColumn": 4,
+                    "startOffset": 4762,
+                    "endLine": 77,
+                    "endColumn": 14,
+                    "endOffset": 5023
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 4,
+                        "startOffset": 4762,
+                        "endLine": 77,
+                        "endColumn": 14,
+                        "endOffset": 5023
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 78,
+                    "startColumn": 4,
+                    "startOffset": 5028,
+                    "endColumn": 110,
+                    "endOffset": 5134
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 110,
+                        "endOffset": 335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 5139,
+                    "endColumn": 107,
+                    "endOffset": 5242
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 107,
+                        "endOffset": 443
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 80,
+                    "startColumn": 4,
+                    "startOffset": 5247,
+                    "endColumn": 122,
+                    "endOffset": 5365
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 448,
+                        "endColumn": 122,
+                        "endOffset": 566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 5370,
+                    "endColumn": 114,
+                    "endOffset": 5480
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 571,
+                        "endColumn": 114,
+                        "endOffset": 681
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 5485,
+                    "endColumn": 110,
+                    "endOffset": 5591
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 686,
+                        "endColumn": 110,
+                        "endOffset": 792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 5596,
+                    "endColumn": 81,
+                    "endOffset": 5673
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 797,
+                        "endColumn": 81,
+                        "endOffset": 874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 5678,
+                    "endColumn": 105,
+                    "endOffset": 5779
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 879,
+                        "endColumn": 105,
+                        "endOffset": 980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 5784,
+                    "endColumn": 129,
+                    "endOffset": 5909
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 985,
+                        "endColumn": 129,
+                        "endOffset": 1110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 5914,
+                    "endColumn": 82,
+                    "endOffset": 5992
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1115,
+                        "endColumn": 82,
+                        "endOffset": 1193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 5997,
+                    "endColumn": 79,
+                    "endOffset": 6072
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1198,
+                        "endColumn": 79,
+                        "endOffset": 1273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 6077,
+                    "endColumn": 85,
+                    "endOffset": 6158
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1278,
+                        "endColumn": 85,
+                        "endOffset": 1359
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 6163,
+                    "endColumn": 109,
+                    "endOffset": 6268
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1364,
+                        "endColumn": 109,
+                        "endOffset": 1469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 6273,
+                    "endColumn": 111,
+                    "endOffset": 6380
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1474,
+                        "endColumn": 111,
+                        "endOffset": 1581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 6385,
+                    "endColumn": 102,
+                    "endOffset": 6483
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1586,
+                        "endColumn": 102,
+                        "endOffset": 1684
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 6488,
+                    "endColumn": 110,
+                    "endOffset": 6594
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1689,
+                        "endColumn": 110,
+                        "endOffset": 1795
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 6599,
+                    "endColumn": 106,
+                    "endOffset": 6701
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1800,
+                        "endColumn": 106,
+                        "endOffset": 1902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 6706,
+                    "endColumn": 106,
+                    "endOffset": 6808
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1907,
+                        "endColumn": 106,
+                        "endOffset": 2009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 6813,
+                    "endColumn": 121,
+                    "endOffset": 6930
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2014,
+                        "endColumn": 121,
+                        "endOffset": 2131
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 6935,
+                    "endColumn": 98,
+                    "endOffset": 7029
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2136,
+                        "endColumn": 98,
+                        "endOffset": 2230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 7034,
+                    "endColumn": 67,
+                    "endOffset": 7097
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 4,
+                        "startOffset": 5028,
+                        "endColumn": 67,
+                        "endOffset": 5091
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 7102,
+                    "endColumn": 127,
+                    "endOffset": 7225
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 5096,
+                        "endColumn": 127,
+                        "endOffset": 5219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 7230,
+                    "endColumn": 126,
+                    "endOffset": 7352
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 80,
+                        "startColumn": 4,
+                        "startOffset": 5224,
+                        "endColumn": 126,
+                        "endOffset": 5346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 7357,
+                    "endColumn": 150,
+                    "endOffset": 7503
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\net.danlew\\android.joda\\2.9.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 5351,
+                        "endColumn": 150,
+                        "endOffset": 5497
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 7508,
+                    "endColumn": 100,
+                    "endOffset": 7604
+                },
+                "from": {
+                    "file": "C:\\Users\\rafaela.araujo\\Documents\\CustomTabAndroid\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-fr\\values-fr.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 2235,
+                        "endColumn": 100,
+                        "endOffset": 2331
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">tomorrow</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> days</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">in 1 hour</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> hours</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">in 1 min</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> mins</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">in 1 sec</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> secs</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">yesterday</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> days ago</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">1 hour ago</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> hours ago</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">1 min ago</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> mins ago</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">1 sec ago</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> secs ago</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">1 hour</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> hours</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">1 minute</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> minutes</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">1 second</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> seconds</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">tomorrow</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> days</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">in 1 hour</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> hours</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">in 1 minute</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> minutes</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">in 1 second</item>
+        <item quantity="other">in <ns1:g id="count">%d</ns1:g> seconds</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">yesterday</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> days ago</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">1 hour ago</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> hours ago</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">1 minute ago</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> minutes ago</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">1 second ago</item>
+        <item quantity="other"><ns1:g id="count">%d</ns1:g> seconds ago</item>
+    </plurals>
+    <string name="joda_time_android_date_time">%1$s, %2$s</string>
+    <string name="joda_time_android_preposition_for_date">on <ns1:g example="May 29" id="date">%s</ns1:g></string>
+    <string name="joda_time_android_preposition_for_time">at <ns1:g example="2:33 am" id="time">%s</ns1:g></string>
+    <string name="joda_time_android_relative_time">"<ns1:g example="4 hours ago" id="date">%1$s</ns1:g>, <ns1:g example="11:00 am" id="time">%2$s</ns1:g>"</string>
+</resources>

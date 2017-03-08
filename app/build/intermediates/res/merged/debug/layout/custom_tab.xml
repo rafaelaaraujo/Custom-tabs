@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/com.example.rafaelaaraujo.customTabAndroid.adapter">
+
+    <data>
+
+        <variable
+            name="state"
+            type="String" />
+
+        <variable
+            name="position"
+            type="int" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            app:monthString="@{position}"
+            app:changeTextBackground="@{state}"
+            />
+
+        <View
+            android:id="@+id/triangle"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            app:changeBackground="@{state}"
+            />
+
+    </FrameLayout>
+</layout>
