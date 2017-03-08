@@ -1,15 +1,13 @@
 package com.example.rafaelaaraujo.customTabAndroid.adapter;
 
 import android.content.Context;
-import android.databinding.DataBindingUtil;
-import android.databinding.ViewDataBinding;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
-import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.rafaelaaraujo.customTabAndroid.BR;
 import com.example.rafaelaaraujo.customTabAndroid.R;
+import com.example.rafaelaaraujo.customTabAndroid.adapter.viewHolder.BillItemsViewHolder;
 import com.example.rafaelaaraujo.customTabAndroid.model.LineItem;
 
 import java.util.List;
@@ -17,7 +15,7 @@ import java.util.List;
 /**
  * Created by rafaela.araujo on 20/06/2016.
  */
-public class BillItemsAdapter extends RecyclerView.Adapter<BillItemsAdapter.ViewHolder> {
+public class BillItemsAdapter extends RecyclerView.Adapter<BillItemsViewHolder> {
 
     private final LayoutInflater inflater;
     private List<LineItem> listItems;
@@ -28,13 +26,12 @@ public class BillItemsAdapter extends RecyclerView.Adapter<BillItemsAdapter.View
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new ViewHolder(inflater.inflate(R.layout.list_bill_item, parent, false));
+    public BillItemsViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        return new BillItemsViewHolder(inflater.inflate(R.layout.list_bill_item, parent, false));
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
-    }
+    public void onBindViewHolder(BillItemsViewHolder holder, int position) {}
 
     @Override
     public long getItemId(int position) {
@@ -46,21 +43,9 @@ public class BillItemsAdapter extends RecyclerView.Adapter<BillItemsAdapter.View
         return listItems.size();
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder {
-        private ViewDataBinding binding;
-
-        public ViewHolder(View rowView) {
-            super(rowView);
-            binding = DataBindingUtil.bind(rowView);
-        }
-
-        public ViewDataBinding getBinding() {
-            return binding;
-        }
-    }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position, List<Object> payloads) {
+    public void onBindViewHolder(BillItemsViewHolder holder, int position, List<Object> payloads) {
         holder.getBinding().setVariable(BR.lineItem, listItems.get(position));
         holder.getBinding().setVariable(BR.lastPosition, position == listItems.size() - 1);
         holder.getBinding().executePendingBindings();
