@@ -25,14 +25,14 @@ import java.util.ArrayList;
 /**
  * Created by rafaela.araujo on 13/06/2016.
  */
-public class FragmentePageAdapter extends FragmentPagerAdapter {
+public class PageAdapterFragment extends FragmentPagerAdapter {
     private Context context;
     private static ArrayList<Bill> billList;
 
-    public FragmentePageAdapter(FragmentManager fm, Context context, ArrayList<Bill> billList) {
+    public PageAdapterFragment(FragmentManager fm, Context context, ArrayList<Bill> billList) {
         super(fm);
         this.context = context;
-        FragmentePageAdapter.billList = billList;
+        PageAdapterFragment.billList = billList;
     }
 
     @Override
@@ -51,7 +51,7 @@ public class FragmentePageAdapter extends FragmentPagerAdapter {
     }
 
     public View getTabView(int position) {
-        View v = LayoutInflater.from(context).inflate(R.layout.custom_tab, null);
+        View v = LayoutInflater.from(context).inflate(R.layout.fragment_page_adapter, null);
         ViewDataBinding binding = DataBindingUtil.bind(v);
         binding.setVariable(BR.state, billList.get(position).getState());
         binding.setVariable(BR.position, position);

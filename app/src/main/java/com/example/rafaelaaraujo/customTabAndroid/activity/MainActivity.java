@@ -12,7 +12,7 @@ import android.widget.TextView;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.example.rafaelaaraujo.customTabAndroid.R;
-import com.example.rafaelaaraujo.customTabAndroid.adapter.FragmentePageAdapter;
+import com.example.rafaelaaraujo.customTabAndroid.adapter.PageAdapterFragment;
 import com.example.rafaelaaraujo.customTabAndroid.communication.service.BillService;
 import com.example.rafaelaaraujo.customTabAndroid.model.Bill;
 
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
     }
 
     private void configurePagerView() {
-        FragmentePageAdapter adapter = new FragmentePageAdapter(getSupportFragmentManager(), MainActivity.this, listbill);
+        PageAdapterFragment adapter = new PageAdapterFragment(getSupportFragmentManager(), MainActivity.this, listbill);
         viewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(adapter);
 

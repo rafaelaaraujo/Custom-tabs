@@ -9,8 +9,8 @@ class DataBinderMapper {
         switch(layoutId) {
                 case com.example.rafaelaaraujo.customTabAndroid.R.layout.page_fragment:
                     return com.example.rafaelaaraujo.customTabAndroid.databinding.PageFragmentBinding.bind(view, bindingComponent);
-                case com.example.rafaelaaraujo.customTabAndroid.R.layout.custom_tab:
-                    return com.example.rafaelaaraujo.customTabAndroid.databinding.CustomTabBinding.bind(view, bindingComponent);
+                case com.example.rafaelaaraujo.customTabAndroid.R.layout.fragment_page_adapter:
+                    return com.example.rafaelaaraujo.customTabAndroid.databinding.FragmentPageAdapterBinding.bind(view, bindingComponent);
                 case com.example.rafaelaaraujo.customTabAndroid.R.layout.list_bill_item:
                     return com.example.rafaelaaraujo.customTabAndroid.databinding.ListBillItemBinding.bind(view, bindingComponent);
         }
@@ -33,9 +33,9 @@ class DataBinderMapper {
                 }
                 break;
             }
-            case -1927988611: {
-                if(tag.equals("layout/custom_tab_0")) {
-                    return com.example.rafaelaaraujo.customTabAndroid.R.layout.custom_tab;
+            case -1493022854: {
+                if(tag.equals("layout/fragment_page_adapter_0")) {
+                    return com.example.rafaelaaraujo.customTabAndroid.R.layout.fragment_page_adapter;
                 }
                 break;
             }

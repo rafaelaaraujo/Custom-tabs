@@ -42,16 +42,11 @@ public class PageFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         PageFragmentBinding binding = DataBindingUtil.inflate(inflater, R.layout.page_fragment, container, false);
+        bill = (Bill) getArguments().getSerializable(BILL);
         view = binding.getRoot();
         binding.setBill(bill);
         addLineItens();
         return view;
-    }
-
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        bill = (Bill) getArguments().getSerializable(BILL);
     }
 
     @BindingAdapter({"changeBackground"})

@@ -15,7 +15,7 @@
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:tag="layout/custom_tab_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.example.rafaelaaraujo.customTabAndroid.adapter">
+        android:layout_height="wrap_content" android:tag="layout/fragment_page_adapter_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/com.example.rafaelaaraujo.customTabAndroid.adapter">
 
         <TextView
             android:id="@+id/title_tab"

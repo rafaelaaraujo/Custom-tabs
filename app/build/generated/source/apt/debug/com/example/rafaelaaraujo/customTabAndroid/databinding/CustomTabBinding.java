@@ -1,6 +1,7 @@
 package com.example.rafaelaaraujo.customTabAndroid.databinding;
-import com.example.rafaelaaraujo.customTabAndroid.R;
 import com.example.rafaelaaraujo.customTabAndroid.BR;
+import com.example.rafaelaaraujo.customTabAndroid.adapter.PageAdapterFragment;
+
 import android.view.View;
 public class CustomTabBinding extends android.databinding.ViewDataBinding  {
 
@@ -113,13 +114,13 @@ public class CustomTabBinding extends android.databinding.ViewDataBinding  {
         if ((dirtyFlags & 0x5L) != 0) {
             // api target 1
 
-            com.example.rafaelaaraujo.customTabAndroid.adapter.FragmentePageAdapter.changeMonthString(this.titleTab, position);
+            PageAdapterFragment.changeMonthString(this.titleTab, position);
         }
         if ((dirtyFlags & 0x6L) != 0) {
             // api target 1
 
-            com.example.rafaelaaraujo.customTabAndroid.adapter.FragmentePageAdapter.changeTextBackground(this.titleTab, state);
-            com.example.rafaelaaraujo.customTabAndroid.adapter.FragmentePageAdapter.changeBackground(this.triangle, state);
+            PageAdapterFragment.changeTextBackground(this.titleTab, state);
+            PageAdapterFragment.changeBackground(this.triangle, state);
         }
     }
     // Listener Stub Implementations
@@ -131,13 +132,13 @@ public class CustomTabBinding extends android.databinding.ViewDataBinding  {
         return inflate(inflater, root, attachToRoot, android.databinding.DataBindingUtil.getDefaultComponent());
     }
     public static CustomTabBinding inflate(android.view.LayoutInflater inflater, android.view.ViewGroup root, boolean attachToRoot, android.databinding.DataBindingComponent bindingComponent) {
-        return android.databinding.DataBindingUtil.<CustomTabBinding>inflate(inflater, com.example.rafaelaaraujo.customTabAndroid.R.layout.custom_tab, root, attachToRoot, bindingComponent);
+        return android.databinding.DataBindingUtil.<CustomTabBinding>inflate(inflater, com.example.rafaelaaraujo.customTabAndroid.R.layout.fragment_page_adapter, root, attachToRoot, bindingComponent);
     }
     public static CustomTabBinding inflate(android.view.LayoutInflater inflater) {
         return inflate(inflater, android.databinding.DataBindingUtil.getDefaultComponent());
     }
     public static CustomTabBinding inflate(android.view.LayoutInflater inflater, android.databinding.DataBindingComponent bindingComponent) {
-        return bind(inflater.inflate(com.example.rafaelaaraujo.customTabAndroid.R.layout.custom_tab, null, false), bindingComponent);
+        return bind(inflater.inflate(com.example.rafaelaaraujo.customTabAndroid.R.layout.fragment_page_adapter, null, false), bindingComponent);
     }
     public static CustomTabBinding bind(android.view.View view) {
         return bind(view, android.databinding.DataBindingUtil.getDefaultComponent());
