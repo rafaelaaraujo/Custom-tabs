@@ -25,8 +25,7 @@
             android:textAllCaps="true"
             android:textSize="15dp"
             android:tag="binding_1"      
-                                               
-            />
+                                               />
 
         <View
             android:id="@+id/triangle"
@@ -35,8 +34,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:visibility="gone"
-            android:tag="binding_2"        
-            />
+            android:tag="binding_2"        />
 
     </FrameLayout>
          

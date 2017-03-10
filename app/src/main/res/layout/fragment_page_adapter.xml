@@ -25,8 +25,7 @@
             android:textAllCaps="true"
             android:textSize="15dp"
             app:monthString="@{position}"
-            app:changeTextBackground="@{state}"
-            />
+            app:changeTextBackground="@{state}"/>
 
         <View
             android:id="@+id/triangle"
@@ -35,8 +34,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:visibility="gone"
-            app:changeBackground="@{state}"
-            />
+            app:changeBackground="@{state}"/>
 
     </FrameLayout>
 </layout>
