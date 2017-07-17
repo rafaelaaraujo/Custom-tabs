@@ -1,6 +1,9 @@
 package com.example.rafaelaaraujo.customTabAndroid.databinding;
+import com.example.rafaelaaraujo.customTab.model.LineItem;
 import com.example.rafaelaaraujo.customTabAndroid.R;
 import com.example.rafaelaaraujo.customTabAndroid.BR;
+import com.example.rafaelaaraujo.customTab.util.StringUtils;
+
 import android.view.View;
 public class ListBillItemBinding extends android.databinding.ViewDataBinding  {
 
@@ -21,7 +24,7 @@ public class ListBillItemBinding extends android.databinding.ViewDataBinding  {
     public final android.view.View viewBall;
     public final android.view.View viewLine;
     // variables
-    private com.example.rafaelaaraujo.customTabAndroid.model.LineItem mLineItem;
+    private LineItem mLineItem;
     private boolean mLastPosition;
     // values
     // listeners
@@ -68,7 +71,7 @@ public class ListBillItemBinding extends android.databinding.ViewDataBinding  {
     public boolean setVariable(int variableId, Object variable) {
         switch(variableId) {
             case BR.lineItem :
-                setLineItem((com.example.rafaelaaraujo.customTabAndroid.model.LineItem) variable);
+                setLineItem((LineItem) variable);
                 return true;
             case BR.lastPosition :
                 setLastPosition((boolean) variable);
@@ -77,7 +80,7 @@ public class ListBillItemBinding extends android.databinding.ViewDataBinding  {
         return false;
     }
 
-    public void setLineItem(com.example.rafaelaaraujo.customTabAndroid.model.LineItem lineItem) {
+    public void setLineItem(LineItem lineItem) {
         this.mLineItem = lineItem;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -85,7 +88,7 @@ public class ListBillItemBinding extends android.databinding.ViewDataBinding  {
         notifyPropertyChanged(BR.lineItem);
         super.requestRebind();
     }
-    public com.example.rafaelaaraujo.customTabAndroid.model.LineItem getLineItem() {
+    public LineItem getLineItem() {
         return mLineItem;
     }
     public void setLastPosition(boolean lastPosition) {
@@ -117,7 +120,7 @@ public class ListBillItemBinding extends android.databinding.ViewDataBinding  {
         int lineItemGetAmountLin = 0;
         boolean LineItemGetAmountLin1 = false;
         java.lang.String utilsFormatTitleList = null;
-        com.example.rafaelaaraujo.customTabAndroid.model.LineItem lineItem = mLineItem;
+        LineItem lineItem = mLineItem;
         java.lang.String utilsFormatToMonetar = null;
         int lineItemGetAmountLin1 = 0;
         boolean lastPosition = mLastPosition;
@@ -130,8 +133,8 @@ public class ListBillItemBinding extends android.databinding.ViewDataBinding  {
 
 
 
-                // read Utils.formatTitleListLineItem(lineItem)
-                utilsFormatTitleList = com.example.rafaelaaraujo.customTabAndroid.util.Utils.formatTitleListLineItem(lineItem);
+                // read StringUtils.formatTitleListLineItem(lineItem)
+                utilsFormatTitleList = StringUtils.formatTitleListLineItem(lineItem);
                 if (lineItem != null) {
                     // read lineItem.getAmount()
                     lineItemGetAmountLin1 = lineItem.getAmount();
@@ -142,10 +145,10 @@ public class ListBillItemBinding extends android.databinding.ViewDataBinding  {
 
                 // read lineItem.getAmount() < 0
                 LineItemGetAmountLin1 = (lineItemGetAmountLin1) < (0);
-                // read Utils.formatToMonetary(lineItem.getAmount(), false)
-                utilsFormatToMonetar = com.example.rafaelaaraujo.customTabAndroid.util.Utils.formatToMonetary(lineItemGetAmountLin1, false);
-                // read Utils.fomatteDateddMMM(lineItem.getPost_date())
-                utilsFomatteDateddMM = com.example.rafaelaaraujo.customTabAndroid.util.Utils.fomatteDateddMMM(lineItemGetPostDateL);
+                // read StringUtils.formatToMonetary(lineItem.getAmount(), false)
+                utilsFormatToMonetar = StringUtils.formatToMonetary(lineItemGetAmountLin1, false);
+                // read StringUtils.fomatteDateddMMM(lineItem.getPost_date())
+                utilsFomatteDateddMM = StringUtils.fomatteDateddMMM(lineItemGetPostDateL);
                 if((dirtyFlags & 0x5L) != 0) {
                     if (LineItemGetAmountLin1) {
                         dirtyFlags |= 0x10L;

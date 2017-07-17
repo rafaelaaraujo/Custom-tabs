@@ -3,7 +3,7 @@
 
     <data>
 
-        <import type="com.example.rafaelaaraujo.customTabAndroid.util.Utils" />
+        <import type="com.example.rafaelaaraujo.customTabAndroid.util.StringUtils" />
         <import type="android.view.View" />
 
         <variable
