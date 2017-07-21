@@ -1,6 +1,6 @@
 package com.example.rafaelaaraujo.customTabAndroid.databinding;
 import com.example.rafaelaaraujo.customTabAndroid.BR;
-import com.example.rafaelaaraujo.customTab.adapter.PageAdapterFragment;
+import com.example.rafaelaaraujo.customTabAndroid.adapter.PageAdapterFragment;
 
 import android.view.View;
 public class CustomTabBinding extends android.databinding.ViewDataBinding  {

@@ -1,5 +1,5 @@
 package com.example.rafaelaaraujo.customTabAndroid.databinding;
-import com.example.rafaelaaraujo.customTab.adapter.PageAdapterFragment;
+import com.example.rafaelaaraujo.customTabAndroid.R;
 import com.example.rafaelaaraujo.customTabAndroid.BR;
 import android.view.View;
 public class FragmentPageAdapterBinding extends android.databinding.ViewDataBinding  {
@@ -113,13 +113,13 @@ public class FragmentPageAdapterBinding extends android.databinding.ViewDataBind
         if ((dirtyFlags & 0x5L) != 0) {
             // api target 1
 
-            PageAdapterFragment.changeMonthString(this.titleTab, position);
+            com.example.rafaelaaraujo.customTabAndroid.adapter.PageAdapterFragment.changeMonthString(this.titleTab, position);
         }
         if ((dirtyFlags & 0x6L) != 0) {
             // api target 1
 
-            PageAdapterFragment.changeTextBackground(this.titleTab, state);
-            PageAdapterFragment.changeBackground(this.triangle, state);
+            com.example.rafaelaaraujo.customTabAndroid.adapter.PageAdapterFragment.changeTextBackground(this.titleTab, state);
+            com.example.rafaelaaraujo.customTabAndroid.adapter.PageAdapterFragment.changeBackground(this.triangle, state);
         }
     }
     // Listener Stub Implementations

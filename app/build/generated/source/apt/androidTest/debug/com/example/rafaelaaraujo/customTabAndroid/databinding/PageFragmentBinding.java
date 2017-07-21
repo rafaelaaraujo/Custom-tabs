@@ -1,11 +1,6 @@
 package com.example.rafaelaaraujo.customTabAndroid.databinding;
-import com.example.rafaelaaraujo.customTab.fragment.PageFragment;
-import com.example.rafaelaaraujo.customTab.model.Bill;
-import com.example.rafaelaaraujo.customTab.model.Summary;
 import com.example.rafaelaaraujo.customTabAndroid.R;
 import com.example.rafaelaaraujo.customTabAndroid.BR;
-import com.example.rafaelaaraujo.customTab.util.StringUtils;
-
 import android.view.View;
 public class PageFragmentBinding extends android.databinding.ViewDataBinding  {
 
@@ -33,7 +28,7 @@ public class PageFragmentBinding extends android.databinding.ViewDataBinding  {
     public final android.widget.TextView txtTotalAccumulative;
     public final android.widget.TextView txtValues;
     // variables
-    private Bill mBill;
+    private com.example.rafaelaaraujo.customTabAndroid.model.Bill mBill;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -90,13 +85,13 @@ public class PageFragmentBinding extends android.databinding.ViewDataBinding  {
     public boolean setVariable(int variableId, Object variable) {
         switch(variableId) {
             case BR.bill :
-                setBill((Bill) variable);
+                setBill((com.example.rafaelaaraujo.customTabAndroid.model.Bill) variable);
                 return true;
         }
         return false;
     }
 
-    public void setBill(Bill bill) {
+    public void setBill(com.example.rafaelaaraujo.customTabAndroid.model.Bill bill) {
         this.mBill = bill;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -104,7 +99,7 @@ public class PageFragmentBinding extends android.databinding.ViewDataBinding  {
         notifyPropertyChanged(BR.bill);
         super.requestRebind();
     }
-    public Bill getBill() {
+    public com.example.rafaelaaraujo.customTabAndroid.model.Bill getBill() {
         return mBill;
     }
 
@@ -127,7 +122,7 @@ public class PageFragmentBinding extends android.databinding.ViewDataBinding  {
         boolean billGetSummaryBillGe = false;
         java.lang.String androidStringFromToD = null;
         java.lang.String billGetSummaryBillGe1 = null;
-        Summary billGetSummaryBill = null;
+        com.example.rafaelaaraujo.customTabAndroid.model.Summary billGetSummaryBill = null;
         int billGetSummaryBillGe2 = 0;
         java.lang.String billGetSummaryBillGe3 = null;
         int BillGetSummaryBillGe1 = 0;
@@ -139,7 +134,7 @@ public class PageFragmentBinding extends android.databinding.ViewDataBinding  {
         java.lang.String billGetSummaryBillGe4 = null;
         java.lang.String androidStringDateClo = null;
         boolean logicalNotBillGetSta1 = false;
-        Bill bill = mBill;
+        com.example.rafaelaaraujo.customTabAndroid.model.Bill bill = mBill;
         java.lang.String UtilsFomatteDateddMM1 = null;
         java.lang.String utilsFormatToMonetar = null;
         boolean billGetStateBillEqua3 = false;
@@ -197,16 +192,16 @@ public class PageFragmentBinding extends android.databinding.ViewDataBinding  {
                     }}
 
 
-                // read StringUtils.fomatteDateddMMM(bill.getSummary().getOpen_date())
-                UtilsFomatteDateddMM2 = StringUtils.fomatteDateddMMM(billGetSummaryBillGe1);
+                // read Utils.fomatteDateddMMM(bill.getSummary().getOpen_date())
+                UtilsFomatteDateddMM2 = com.example.rafaelaaraujo.customTabAndroid.util.Utils.fomatteDateddMMM(billGetSummaryBillGe1);
                 // read bill.getSummary().getTotal_cumulative() > 0
                 BillGetSummaryBillGe2 = (billGetSummaryBillGe2) > (0);
-                // read StringUtils.formatToMonetary(bill.getSummary().getTotal_cumulative(), true)
-                utilsFormatToMonetar = StringUtils.formatToMonetary(billGetSummaryBillGe2, true);
-                // read StringUtils.fomatteDateddMMM(bill.getSummary().getClose_date())
-                utilsFomatteDateddMM = StringUtils.fomatteDateddMMM(billGetSummaryBillGe3);
-                // read StringUtils.fomatteDateddMMM(bill.getSummary().getDue_date())
-                UtilsFomatteDateddMM1 = StringUtils.fomatteDateddMMM(billGetSummaryBillGe4);
+                // read Utils.formatToMonetary(bill.getSummary().getTotal_cumulative(), true)
+                utilsFormatToMonetar = com.example.rafaelaaraujo.customTabAndroid.util.Utils.formatToMonetary(billGetSummaryBillGe2, true);
+                // read Utils.fomatteDateddMMM(bill.getSummary().getClose_date())
+                utilsFomatteDateddMM = com.example.rafaelaaraujo.customTabAndroid.util.Utils.fomatteDateddMMM(billGetSummaryBillGe3);
+                // read Utils.fomatteDateddMMM(bill.getSummary().getDue_date())
+                UtilsFomatteDateddMM1 = com.example.rafaelaaraujo.customTabAndroid.util.Utils.fomatteDateddMMM(billGetSummaryBillGe4);
                 // read bill.getState().equals("open") ? @android:drawable/selector_button_generate_billet_blue : @android:drawable/selector_button_generate_billet_red
                 billGetStateBillEqua = (billGetStateBillEqua1) ? (android.databinding.DynamicUtil.getDrawableFromResource(btnGenerateBilet, R.drawable.selector_button_generate_billet_blue)) : (android.databinding.DynamicUtil.getDrawableFromResource(btnGenerateBilet, R.drawable.selector_button_generate_billet_red));
                 // read bill.getState().equals("open") ? View.VISIBLE : View.GONE
@@ -276,10 +271,10 @@ public class PageFragmentBinding extends android.databinding.ViewDataBinding  {
             // api target 1
 
             android.databinding.adapters.ViewBindingAdapter.setBackground(this.btnGenerateBilet, billGetStateBillEqua);
-            PageFragment.setTextStyle(this.btnGenerateBilet, billGetStateBill);
+            com.example.rafaelaaraujo.customTabAndroid.fragment.PageFragment.setTextStyle(this.btnGenerateBilet, billGetStateBill);
             this.btnGenerateBilet.setVisibility(LogicalNotBillGetSta2);
             android.databinding.adapters.TextViewBindingAdapter.setText(this.dueDate, androidStringDueDate);
-            PageFragment.changeLayout(this.linearTopo, billGetStateBill);
+            com.example.rafaelaaraujo.customTabAndroid.fragment.PageFragment.changeLayout(this.linearTopo, billGetStateBill);
             this.linearTotalAcumulative.setVisibility(BillGetSummaryBillGe1);
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, utilsFormatToMonetar);
             android.databinding.adapters.TextViewBindingAdapter.setText(this.txtClosed, androidStringDateClo);
